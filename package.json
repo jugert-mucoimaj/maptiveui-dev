@@ -1,0 +1,71 @@
+{
+  "name": "maptiveui-tunable",
+  "version": "0.1.0",
+  "description": "Live-edit CSS on React components with a floating glass panel. Tune in-browser, copy CSS or Tailwind when you're done.",
+  "keywords": [
+    "react",
+    "css",
+    "tailwind",
+    "dev-tool",
+    "devtools",
+    "style-editor",
+    "design-tool",
+    "live-preview",
+    "tunable",
+    "ui-controls",
+    "color-picker",
+    "maptiveui"
+  ],
+  "author": "Jugert Mucoimaj",
+  "license": "MIT",
+  "homepage": "https://maptiveui.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jugert-mucoimaj/maptiveui-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jugert-mucoimaj/maptiveui-dev/issues"
+  },
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run typecheck && npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-dom": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.3.5",
+    "typescript": "^5.6.3"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
