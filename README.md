@@ -14,7 +14,7 @@
 
 <!-- prettier-ignore-end -->
 
-> 🚧 **[maptiveui.dev](https://maptiveui.dev) is coming soon.** A live demo, full docs, and more tools in the Maptive UI family will land there. Star the [GitHub repo](https://github.com/jugert-mucoimaj/maptiveui-dev) to follow along.
+> **[maptivaui.dev](https://maptivaui.dev) is live.** A live demo, full docs, and more tools in the Maptive UI family are available there. Star the [GitHub repo](https://github.com/jugert-mucoimaj/maptiveui-dev) to follow along.
 
 ---
 
@@ -180,7 +180,7 @@ Things in the air for future versions:
 - Save-to-source-file via a build plugin (Vite / Next)
 - Preset control bundles (`container`, `text`, `button`, …)
 - Component-library-specific adapters (`maptiveui-tunable-shadcn`, etc.)
-- A full interactive site at [maptiveui.dev](https://maptiveui.dev)
+- A full interactive site at [maptivaui.dev](https://maptivaui.dev)
 
 ---
 
